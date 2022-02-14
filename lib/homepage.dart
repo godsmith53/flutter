@@ -9,7 +9,7 @@ class homepage extends StatelessWidget {
     
     return Scaffold(
       appBar: AppBar(
-        title: const Text("app title goes here"),
+        title: const Text("Catalog App"),
       ),
       body:Center(child:Container(
       child: const Text("My First React App :)"),

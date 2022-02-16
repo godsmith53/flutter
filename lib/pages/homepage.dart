@@ -12,7 +12,7 @@ class homepage extends StatelessWidget {
         title: const Text("Catalog App"),
       ),
       body:Center(child:Container(
-      child: const Text("My First React App :)"),
+      child: const Text("My First Flutter App :)"),
     ),
     ) ,
     drawer: Drawer(),

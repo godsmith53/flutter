@@ -5,7 +5,7 @@ class myDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final imageUrl="https://instagram.fdel24-1.fna.fbcdn.net/v/t51.2885-19/274124219_313205064204222_7593770219055443378_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fdel24-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=Bx6M55zlRRMAX-GwB61&edm=ABfd0MgBAAAA&ccb=7-4&oh=00_AT9qPA-rV0mRz6NwQG8eGD3sQWbdShPmn_vvyLSLRj83og&oe=62143534&_nc_sid=7bff83";
+    final imageUrl="";
     return Drawer(
       child: Container(
         color: Colors.deepPurple,
@@ -17,7 +17,7 @@ class myDrawer extends StatelessWidget {
               child: UserAccountsDrawerHeader(
               margin: EdgeInsets.zero,
               currentAccountPicture: CircleAvatar(
-                backgroundImage: NetworkImage(imageUrl),
+                child: Image.network("https://instagram.fblr1-4.fna.fbcdn.net/v/t51.2885-19/278394302_5242943052395177_444422780608796714_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fblr1-4.fna.fbcdn.net&_nc_cat=105&_nc_ohc=TEBOsJXr03YAX84XRgr&edm=ABfd0MgBAAAA&ccb=7-4&oh=00_AT-g2Tt7IZcb833d41oKFOpZTypXSPPPjSpuewv2KsV6Kg&oe=62655A65&_nc_sid=7bff83"),
               ),
               accountName: Text("Aditya Verma"),
                accountEmail: Text("toaditya07@gmail.com",
